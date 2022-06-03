@@ -1,0 +1,35 @@
+// header //
+
+.logo {
+    display: block;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 92px;
+
+    color: var(--accent-text);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.title {
+    color: var(--primary-text-color);
+}
+
+// Footer //
+.logo-footer {
+    display: block;
+    padding: 0;   
+
+    color: var(--accent-text);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.title-footer {
+    color: var(--herotitle);
+}

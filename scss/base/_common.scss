@@ -1,0 +1,20 @@
+body {
+    height: auto;
+    background-color: var(--bgr-color);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.section.no-padding {
+    padding-top: 0;   
+}

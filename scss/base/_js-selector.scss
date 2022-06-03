@@ -1,0 +1,23 @@
+
+// hero form //
+.baсkdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+// footer form //
+.subscriber-form__hidden {
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    padding: 0px;
+    width: 1px;
+    height: 1px;
+    
+    color: #FFFFFF99;    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.21;
+    letter-spacing: 0.03em;
+    text-align: left;
+}

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css"/>
+    <link rel="stylesheet" href="./dist/css/main.min.css"/>
 </head>
 <body class="page">
   <!--Cap-->
@@ -65,7 +66,7 @@
                                 </svg>                   
                             </div>
                             <div class="field-form">
-                                <label for="phone">
+                                <label for="field-form__phone">
                                     <span class="stile-name">Телефон</span>
                                 </label>
                                 <input class="user-field" type="tell" name="phone" id="phone">
@@ -74,7 +75,7 @@
                                 </svg>                 
                             </div>
                             <div class="field-form">
-                                <label for="mail">
+                                <label for="field-form__mail">
                                     <span class="stile-name">Почта</span>
                                 </label>
                                 <input class="user-field" type="email" name="mail" id="mail">  
@@ -82,8 +83,8 @@
                                 <use href="./images/sprite-modal-icon.svg#icon-email"></use>
                                 </svg>                   
                             </div>
-                            <div class="comment-form">
-                                <label for="comment">
+                            <div class="comment-form">                          
+                                <label for="comment-form__commit">
                                     <span class="stile-name">Комментарий</span>
                                 </label>
                                 <textarea name="commit" rows="10" id="comment" placeholder="Введите текст"></textarea>                            
@@ -334,53 +335,53 @@
             </div>           
         </section>    
     <!--PARTNERS-->
-    <section class="section clients">
-        <div class="conteiner">
+    <section class="clients section" id="clients">
+        <div class="conteiner clients-conteiner">
             <h2 class="section-title centered">Постоянные клиенты</h2>
-            <ul class="clients list">
-                <li class="clients-item">
-                    <a class="clients-link" href="">
-                        <svg class="clients-icon" width="106" height="60">
+            <ul class="clients-list list">
+                <li class="clients-list__item">
+                    <a class="clients-list__link" href="">
+                        <svg class="clients-list__icon" width="106" height="60">
                             <use href="./images/sprite-partners.svg#icon-group1">                              
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="clients-item">
-                    <a class="clients-link" href="">
-                        <svg class="clients-icon" width="106" height="60">
+                <li class="clients-list__item">
+                    <a class="clients-list__link" href="">
+                        <svg class="clients-list__icon" width="106" height="60">
                             <use href="./images/sprite-partners.svg#icon-group2">                              
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="clients-item">
-                    <a class="clients-link" href="">
-                        <svg class="clients-icon" width="106" height="60">
+                <li class="clients-list__item">
+                    <a class="clients-list__link" href="">
+                        <svg class="clients-list__icon" width="106" height="60">
                             <use href="./images/sprite-partners.svg#icon-group3">                              
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="clients-item">
-                    <a class="clients-link" href="">
-                        <svg class="clients-icon" width="106" height="60">
+                <li class="clients-list__item">
+                    <a class="clients-list__link" href="">
+                        <svg class="clients-list__icon" width="106" height="60">
                             <use href="./images/sprite-partners.svg#icon-group4">                              
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="clients-item">
-                    <a class="clients-link" href="">
-                        <svg class="clients-icon" width="106" height="60">
+                <li class="clients-list__item">
+                    <a class="clients-list__link" href="">
+                        <svg class="clients-list__icon" width="106" height="60">
                             <use href="./images/sprite-partners.svg#icon-group5">                              
                             </use>
                         </svg>
                     </a>
                 </li>
-                <li class="clients-item">
-                    <a class="clients-link" href="">
-                        <svg class="clients-icon" width="106" height="60">
+                <li class="clients-list__item">
+                    <a class="clients-list__link" href="">
+                        <svg class="clients-list__icon" width="106" height="60">
                             <use href="./images/sprite-partners.svg#icon-group6">                              
                             </use>
                         </svg>
@@ -392,7 +393,7 @@
 </main>
   <!--Attic-->
     <footer class="footer">    
-        <div class="conteiner footer">
+        <div class="conteiner conteiner__footer">
             <div class="box-logo">
                 <a href="" class="logo-footer">
                     Web<span class="title-footer"> Studio</span>
@@ -408,30 +409,30 @@
                 <div class="conteiner join">
                 <h2 class="join-titl">присоединяйтесь</h2>
                 <ul class="join-list list">
-                    <li class="join-item">
-                                    <a class="join-link" href aria-label="instagram" target="_blank">
-                                        <svg class="join-icon" width="20" height="20">
+                    <li class="join-list__item">
+                                    <a class="join-list__link" href aria-label="instagram" target="_blank">
+                                        <svg class="join-list__icon" width="20" height="20">
                                             <use href="./images/sprite-socialnetwork.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                     </li>
-                    <li class="join-item">
-                                    <a class="join-link" href aria-label="twitter" target="_blank">
-                                        <svg class="join-icon" width="20" height="20">
+                    <li class="join-list__item">
+                                    <a class="join-list__link" href aria-label="twitter" target="_blank">
+                                        <svg class="join-list__icon" width="20" height="20">
                                             <use href="./images/sprite-socialnetwork.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                     </li>
-                    <li class="join-item">
-                                    <a class="join-link" href aria-label="facebook" target="_blank">
-                                        <svg class="join-icon" width="20" height="20">
+                    <li class="join-list__item">
+                                    <a class="join-list__link" href aria-label="facebook" target="_blank">
+                                        <svg class="join-list__icon" width="20" height="20">
                                             <use href="./images/sprite-socialnetwork.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                     </li>
-                    <li class="join-item">
-                                    <a class="join-link" href aria-label="linkedin" target="_blank">
-                                        <svg class="join-icon" width="20" height="20">
+                    <li class="join-list__item">
+                                    <a class="join-list__link" href aria-label="linkedin" target="_blank">
+                                        <svg class="join-list__icon" width="20" height="20">
                                             <use href="./images/sprite-socialnetwork.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -441,10 +442,10 @@
             <div class="mailing-form">
                 <h2 class="mailing-titl">Подпишитесь на рассылку</h2>
                 <Form class="subscriber-form" autocomplete="off">
-                    <label for="user_email" class="form-hidden">E-mail</label>
-                        <input class="subscriber-email" type="email" name="email" id="user_email" placeholder="E-mail"/>
-                        <button type="submit" class="hero-button">Подписаться
-                            <svg class="send-icon" width="24" height="24">
+                    <label for="user_email" class="subscriber-form__hidden">E-mail</label>
+                        <input class="subscriber-form__email" type="email" name="email" id="user_email" placeholder="E-mail"/>
+                        <button type="submit" class="subscriber-form__btn">Подписаться
+                            <svg class="subscriber-form__icon" width="24" height="24">
                                 <use href="./images/sprite-modal-icon.svg#icon-icon-send-1"></use>
                             </svg>
                         </button>                      
