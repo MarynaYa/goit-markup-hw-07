@@ -134,7 +134,8 @@ img {
           align-items: center;
 }
 
-.site-list__item:not(:last-child), .site-list__item:not(:last-child) {
+.site-nav__item:not(:last-child), 
+.site-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
