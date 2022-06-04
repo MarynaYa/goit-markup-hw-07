@@ -105,6 +105,15 @@ textarea {
 .checkbox {
     appearance: none;
     position: absolute;
+
+    & + .policy-icon {
+        background-color: #2196F3;
+        background-image: url('/images/icon-checkbox.svg');
+        border: 2px solid transparent;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-origin: border-box;
+    }
 }                                   
 .policy-icon {
     display: inline-block;
@@ -114,14 +123,6 @@ textarea {
 
     border: 2px solid #212121;
     border-radius: 3px;
-}
-.checkbox:checked + .policy-icon {
-    background-color: #2196F3;
-    background-image: url('/images/icon-checkbox.svg');
-    border: 2px solid transparent;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: border-box;
 }
 
 // footer form //

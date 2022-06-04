@@ -32,6 +32,11 @@
     &:focus {   
         border-color: #2196f3;
     }
+    &:hover .clients-list__icon,
+    &k:focus .clients-list__icon  {
+    fill: #2196F3;   
+    }
+
 }
 .clients-list__icon {
     fill: #AFB1B8;
@@ -40,7 +45,4 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms
 }
-.clients-list__link:hover .clients-list__icon,
-.clients-list__link:focus .clients-list__icon  {
-    fill: #2196F3;   
-}
+

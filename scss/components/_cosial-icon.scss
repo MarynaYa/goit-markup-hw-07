@@ -31,6 +31,9 @@
     background-color: var(--accent-text);
     border: 1px solid #FFFFFF;
 }
+    &:hover .cosial-list__icon, &:focus .cosial-list__icon {
+        fill: #FFFFFF;
+    }
 }
 .cosial-list__icon {
     fill: #AFB1B8;
@@ -39,9 +42,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
-.cosial-list__link:hover .cosial-list__icon, .cosial-list__link:focus .cosial-list__icon {
-    fill: #FFFFFF;
-}
+
 
 // footer //
 .join-list {
