@@ -106,7 +106,7 @@ textarea {
     appearance: none;
     position: absolute;
 
-    & + .policy-icon {
+    &--checked + .policy-icon {
         background-color: #2196F3;
         background-image: url('/images/icon-checkbox.svg');
         border: 2px solid transparent;

@@ -29,8 +29,7 @@ body {
 }
 
 .navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   margin: 0;
   padding: 0;
@@ -109,31 +108,19 @@ img {
 }
 
 .main-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .site-nav,
 .site-list, .team-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+   display: flex;
 }
 
 .site-list__item {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  position: relative; 
+  display: flex;  
+  align-items: center;
 }
-
 .site-nav__item:not(:last-child), 
 .site-list__item:not(:last-child) {
   margin-right: 50px;
@@ -170,10 +157,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 250ms;
 }
 
 .site-nav__link:hover, .site-nav__link:focus {
@@ -191,10 +176,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
+  
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 250ms;
 }
 
 .site-list__link:hover, .site-list__link:focus {
@@ -213,10 +198,8 @@ img {
 .site-list__icon {
   fill: var(--text-color);
   margin-right: 10px;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .site-list {
@@ -226,22 +209,14 @@ img {
 
 /*Footer*/
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #2F303A;
 }
 
 .conteiner__footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  justify-content: flex-start;
+  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 0;
